@@ -1,0 +1,23 @@
+.buttons__button {
+    border: none;
+    color: hsl(180, 100%, 25%);
+    background-color: white;
+    padding: 0px 20px;
+    margin: 15px 0px;
+    transition: 1s;
+}
+
+.buttons__button:hover {
+    color: hsl(180, 100%, 30%);
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    .buttons__button {
+        width: 100%;
+    }
+}
+
+.buttons__button:disabled {
+    color: hsl(0, 0%, 80%)
+}

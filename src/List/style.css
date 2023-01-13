@@ -1,0 +1,46 @@
+.list {
+    padding: 15px;
+    list-style-type: none;
+}
+
+.list__button {
+    color: white;
+    background-color: hsl(120, 100%, 25%);
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.list__button:hover {
+    background-color: hsl(120, 100%, 35%);
+}
+
+.list__button--remove {
+    background-color: hsl(0, 100%, 50%);
+}
+
+.list__button--remove:hover {
+    background-color: hsl(0, 100%, 65%);
+}
+
+.list__item {
+    margin: 0px 10px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+}
+
+.list__item--hidden {
+    display: none;
+}
