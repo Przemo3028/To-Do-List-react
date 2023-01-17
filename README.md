@@ -1,8 +1,12 @@
-# To-do-List
+# To-do-List-react
 
 # Description
 
 Simple tool which allows to add new tasks and generate task list. Input task to field text and then press "Dodaj zadanie" button to add task to your task list. You can either mark tasks as "done" by pressing green button or remove them from task list by pressing red button.
+
+# Demo
+
+https://przemo3028.github.io/To-Do-List-react/
 
 # Technology used to create tool
 
