@@ -9,7 +9,7 @@ import Section from "./Section";
 
 const tasks = [
   { id: 1, content: "Zjeść obiad", done: true },
-  { id: 2, content: "Przerobić listę na React'ową", done: false },
+  { id: 2, content: "Przerobić listę na React.js", done: false },
 
 ];
 
