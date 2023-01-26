@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-.body {
+.body, html {
   font-family: 'Montserrat', sans-serif;
   background-color: hsl(0, 10%, 95%);
   word-break: break-word;
