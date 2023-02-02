@@ -6,18 +6,20 @@ import List from "./List";
 import Main from "./Main";
 import Section from "./Section";
 
-
-const tasks = [
-  { id: 1, content: "Zjeść obiad", done: true },
-  { id: 2, content: "Przerobić listę na React.js", done: false },
-
-];
-
 function App() {
   const [hideDoneTasks, setHideDone] = useState(false);
+  const [tasks, setTasks] = useState([
+    { id: 1, content: "Zjeść obiad", done: false },
+    { id: 2, content: "Przerobić listę na React.js", done: true },
+
+  ]);
 
   const toggleHideDone = () => {
     setHideDone(hideDoneTasks => !hideDoneTasks);
+  };
+
+  const removeTask = (id) => {
+    setTasks(tasks => tasks.filter(task => task.id !== id))
   };
 
   return (
@@ -32,7 +34,12 @@ function App() {
       />
       <Section
         title="Lista zadań"
-        body={<List tasks={tasks} hideDoneTasks={hideDoneTasks} />}
+        body={
+          <List
+            tasks={tasks}
+            hideDoneTasks={hideDoneTasks}
+            removeTask={removeTask}
+          />}
         extraContent={
           <Buttons
             tasks={tasks}
