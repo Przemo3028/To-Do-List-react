@@ -10,7 +10,7 @@ https://przemo3028.github.io/To-Do-List-react/
 
 # Preview
 
-![animated gif](/Users/Przemek/Desktop/Dev/todo_list_react/public/Gif.gif)
+![animated gif](https://github.com/Przemo3028/To-Do-List-react/blob/master/public/Gif.gif?raw=true)
 
 # Technology used to create tool
 
