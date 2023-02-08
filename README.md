@@ -8,6 +8,10 @@ Simple tool which allows to add new tasks and generate task list. Input task to 
 
 https://przemo3028.github.io/To-Do-List-react/
 
+# Preview
+
+![animated gif]("%PUBLIC_URL%/Gif.gif")
+
 # Technology used to create tool
 
  - Java Script
